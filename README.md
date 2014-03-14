@@ -43,7 +43,7 @@ $.cookie('the_cookie', 'the_value', { expires: 7, path: '/' });
 ```
 
 Read cookie:
-
+ 
 ```javascript
 $.cookie('the_cookie'); // => "the_value"
 $.cookie('not_existing'); // => undefined
